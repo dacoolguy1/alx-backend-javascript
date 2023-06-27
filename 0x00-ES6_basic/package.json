@@ -7,8 +7,6 @@
     "test": "tests"
   },
   "dependencies": {
-    "eslint-config-google": "^0.14.0",
-    "eslint": "^8.43.0",
     "jest": "^29.5.0"
   },
   "devDependencies": {
@@ -16,13 +14,15 @@
     "@babel/node": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "babel-jest": "^29.5.0",
+    "eslint": "^8.43.0",
     "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^27.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx babel-node"
+    "dev": "npx babel-node tests/0-main.js"
   },
   "author": "",
   "license": "ISC"
