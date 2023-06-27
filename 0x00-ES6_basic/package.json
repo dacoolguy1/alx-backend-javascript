@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx babel-node tests/0-main.js"
+    "dev": "npx babel-node"
   },
   "author": "",
   "license": "ISC"
