@@ -1,5 +1,5 @@
 function displayMessage(a) {
-    console.log(a)
+  console.log(a);
 }
 
 // displayMessage("Hello NodeJS!");
