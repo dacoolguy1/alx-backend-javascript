@@ -1,6 +1,7 @@
-function displayMessage(a) {
-  console.log(a);
-}
+/**
+ * Executing basic javascript with Node JS
+ */
 
-// displayMessage("Hello NodeJS!");
-module.exports = displayMessage;
+module.exports = function displayMessage(msg) {
+  console.log(msg);
+};
